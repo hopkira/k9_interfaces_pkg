@@ -1,4 +1,5 @@
 # Custom ROS 2 Service Interfaces and Messages for K9
+This package contains custom messages and service interfaces that are used to communicate between K9's nodes.
 
 ## CancelSpeech
 A simple service with no request payload that returns success (bool) and a message (string).

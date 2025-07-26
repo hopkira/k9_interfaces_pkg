@@ -20,6 +20,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/SetBrightness.srv"
   "srv/Speak.srv"
   "srv/SwitchState.srv"
+  "srv/GenerateUtterance.srv"
+  "msg/ContextLine.msg"
 )
 
 if(BUILD_TESTING)

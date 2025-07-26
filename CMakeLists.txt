@@ -22,6 +22,10 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/SwitchState.srv"
   "srv/GenerateUtterance.srv"
   "msg/ContextLine.msg"
+<<<<<<< Updated upstream
+=======
+  DEPENDENCIES std_msgs
+>>>>>>> Stashed changes
 )
 
 if(BUILD_TESTING)

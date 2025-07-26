@@ -23,6 +23,10 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/GenerateUtterance.srv"
   "msg/ContextLine.msg"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+  DEPENDENCIES std_msgs
+>>>>>>> Stashed changes
 =======
   DEPENDENCIES std_msgs
 >>>>>>> Stashed changes

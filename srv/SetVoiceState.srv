@@ -1,0 +1,5 @@
+# voice_input_interfaces/srv/SetVoiceState.srv
+string state
+---
+bool success
+string message

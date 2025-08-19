@@ -23,6 +23,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/SwitchState.srv"
   "srv/GenerateUtterance.srv"
   "srv/GetWeatherProfile.srv"
+  "ser/GetGardenTasks.srv"
   "msg/ContextLine.msg"
   DEPENDENCIES std_msgs
 )

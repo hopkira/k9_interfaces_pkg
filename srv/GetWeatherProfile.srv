@@ -1,0 +1,7 @@
+# Get Weather Profile Request
+string location   # e.g. "home", "coatham", "london"
+
+---
+int32[] hours
+int32[] feels_like
+float32[] precip

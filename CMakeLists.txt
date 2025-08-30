@@ -27,6 +27,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/GenerateUtterance.srv"
   "srv/GetWeatherProfile.srv"
   "srv/GetGardenTasks.srv"
+  "srv/EmptySrv.srv"
   "msg/ContextLine.msg"
   "msg/BoundingBox.msg"
   "msg/FaceLandmark.msg"

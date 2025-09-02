@@ -18,6 +18,7 @@ find_package(audio_common_msgs REQUIRED)
 find_package(cv_bridge REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
+  "srv/BackLightCmd.srv"  
   "srv/CancelSpeech.srv"
   "srv/GetBrightness.srv"
   "srv/LightsControl.srv"
@@ -27,11 +28,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/GenerateUtterance.srv"
   "srv/GetWeatherProfile.srv"
   "srv/GetGardenTasks.srv"
-<<<<<<< HEAD
   "srv/EmptySrv.srv"
-=======
-  "srv/BackLightCmd.srv"
->>>>>>> 563a6e9d378c00a922b880a99b3e29671814b540
+  "srv/SetVoiceState.srv"
   "msg/ContextLine.msg"
   "msg/BoundingBox.msg"
   "msg/FaceLandmark.msg"

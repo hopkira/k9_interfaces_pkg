@@ -18,12 +18,11 @@ find_package(sensor_msgs REQUIRED)
 #find_package(cv_bridge REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
+  "action/SpeakText.action"
   "srv/BackLightCmd.srv"  
-  "srv/CancelSpeech.srv"
   "srv/GetBrightness.srv"
   "srv/LightsControl.srv"
   "srv/SetBrightness.srv"
-  "srv/Speak.srv"
   "srv/SwitchState.srv"
   "srv/GenerateUtterance.srv"
   "srv/GetWeatherProfile.srv"
@@ -48,5 +47,7 @@ if(BUILD_TESTING)
   set(ament_cmake_cpplint_FOUND TRUE)
   ament_lint_auto_find_test_dependencies()
 endif()
+
+ament_export_dependencies(rosidl_default_runtime)
 
 ament_package()

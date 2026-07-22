@@ -1,0 +1,25 @@
+# Goal
+# Text to speak.
+string text
+
+# Logical owner, e.g. dialogue, chess, demonstration, calendar.
+string owner
+
+# Higher values run first. Range: 0-255.
+uint8 priority
+
+# Pre-empt the currently speaking lower/equal priority goal.
+bool interrupt_lower_priority
+
+# Remove queued lower/equal priority speech when this goal is accepted.
+bool clear_lower_priority
+---
+# Result
+bool success
+bool interrupted
+string message
+---
+# Feedback
+string state
+float32 rms_level
+uint32 chunks_played

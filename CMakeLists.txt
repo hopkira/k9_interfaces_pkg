@@ -14,6 +14,7 @@ find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
+find_package(builtin_interfaces REQUIRED)
 #find_package(audio_common_msgs REQUIRED)
 #find_package(cv_bridge REQUIRED)
 
@@ -29,11 +30,12 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/GetGardenTasks.srv"
   "srv/EmptySrv.srv"
   "srv/SetVoiceState.srv"
+  "msg/AudioFrame.msg"
   "msg/ContextLine.msg"
   "msg/BoundingBox.msg"
   "msg/FaceLandmark.msg"
   "msg/FaceWithLandmarks.msg"
-  DEPENDENCIES std_msgs sensor_msgs
+  DEPENDENCIES std_msgs sensor_msgs builtin_interfaces
 )
 
 if(BUILD_TESTING)

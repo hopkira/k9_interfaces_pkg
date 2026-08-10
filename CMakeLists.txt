@@ -32,6 +32,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/SetVoiceState.srv"
   "msg/AudioFrame.msg"
   "msg/ContextLine.msg"
+  "msg/IntentResult.msg"
   "msg/BoundingBox.msg"
   "msg/FaceLandmark.msg"
   "msg/FaceWithLandmarks.msg"

@@ -36,6 +36,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/IntentResult.msg"
   "msg/TrackedFace.msg"
   "msg/TrackedFaceArray.msg"
+  "msg/RecognisedFace.msg"
+  "msg/RecognisedFaceArray.msg"
   DEPENDENCIES
     std_msgs
     sensor_msgs

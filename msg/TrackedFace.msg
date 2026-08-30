@@ -1,0 +1,5 @@
+uint32 track_id
+vision_msgs/BoundingBox2D bbox
+float32 detection_confidence
+builtin_interfaces/Time first_seen
+builtin_interfaces/Time last_seen

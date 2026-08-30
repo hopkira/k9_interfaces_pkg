@@ -33,7 +33,13 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/AudioFrame.msg"
   "msg/ContextLine.msg"
   "msg/IntentResult.msg"
-  DEPENDENCIES std_msgs sensor_msgs builtin_interfaces
+  "msg/TrackedFace.msg"
+  "msg/TrackedFaceArray.msg"
+  DEPENDENCIES
+    std_msgs
+    sensor_msgs
+    builtin_interfaces
+    vision_msgs
 )
 
 if(BUILD_TESTING)

@@ -33,9 +33,6 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/AudioFrame.msg"
   "msg/ContextLine.msg"
   "msg/IntentResult.msg"
-  "msg/BoundingBox.msg"
-  "msg/FaceLandmark.msg"
-  "msg/FaceWithLandmarks.msg"
   DEPENDENCIES std_msgs sensor_msgs builtin_interfaces
 )
 

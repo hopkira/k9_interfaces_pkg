@@ -15,6 +15,7 @@ find_package(rosidl_default_generators REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(builtin_interfaces REQUIRED)
+find_package(vision_msgs REQUIRED)
 #find_package(audio_common_msgs REQUIRED)
 #find_package(cv_bridge REQUIRED)
 

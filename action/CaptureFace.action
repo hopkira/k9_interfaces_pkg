@@ -1,0 +1,11 @@
+string identity
+string pose
+int32 samples_required
+---
+bool success
+string message
+int32 samples_saved
+---
+string state
+int32 samples_collected
+int32 samples_required

@@ -1,0 +1,6 @@
+string identity
+string relationship
+string preferred_address
+---
+bool success
+string message

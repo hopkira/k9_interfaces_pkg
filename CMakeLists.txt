@@ -21,6 +21,8 @@ find_package(vision_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "action/SpeakText.action"
+  "action/CaptureFace.action"
+  "srv/CommitFaceEnrollment.srv"
   "srv/BackLightCmd.srv"  
   "srv/GetBrightness.srv"
   "srv/LightsControl.srv"

@@ -11,6 +11,8 @@ string best_move_san
 string source
 bool position_evaluation_valid
 float32 position_eval_pawns
+bool position_is_mate
+int32 position_mate_in
 bool resulting_evaluation_valid
 float32 resulting_eval_pawns
 bool resulting_is_mate

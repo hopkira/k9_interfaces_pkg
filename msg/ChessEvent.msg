@@ -1,0 +1,25 @@
+# Structured chess event for the K9 behaviour tree and conversation layer.
+builtin_interfaces/Time stamp
+string type
+string game_id
+string player_name
+string status
+string colour
+string uci
+string san
+string piece
+string from_square
+string to_square
+string captured_piece
+bool gives_check
+bool gives_mate
+string source
+bool evaluation_before_valid
+float32 evaluation_before_pawns
+bool evaluation_after_valid
+float32 evaluation_after_pawns
+float32 evaluation_delta_pawns
+bool is_mate
+int32 mate_in
+string speech_hint
+string message

@@ -1,0 +1,5 @@
+# command: SUSPEND, RESUME, RESIGN, ABORT or RESET.
+string command
+---
+bool success
+string message

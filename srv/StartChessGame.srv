@@ -1,0 +1,7 @@
+# Arm K9 for a Phantom/Lichess game.
+# The Phantom phone app creates a hopkira -> k9_bot challenge.
+# player_name is the real/display name of the person sitting at the board.
+string player_name
+---
+bool success
+string message

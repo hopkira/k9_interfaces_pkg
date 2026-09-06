@@ -1,0 +1,23 @@
+# Compute a move for the supplied position.
+# All evaluations are from K9's point of view.
+string fen
+bool k9_is_white
+float32 think_time_sec
+bool use_book
+---
+bool success
+string best_move_uci
+string best_move_san
+string source
+bool position_evaluation_valid
+float32 position_eval_pawns
+bool resulting_evaluation_valid
+float32 resulting_eval_pawns
+bool resulting_is_mate
+int32 resulting_mate_in
+string error
+---
+int32 depth
+uint64 nodes_per_second
+bool evaluation_valid
+float32 eval_pawns_live

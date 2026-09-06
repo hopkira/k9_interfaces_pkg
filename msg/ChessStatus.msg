@@ -1,0 +1,20 @@
+# Authoritative high-level state published by chess_manager.
+string state
+string player_name
+string human_colour
+string k9_colour
+string game_id
+bool game_active
+bool game_suspended
+string side_to_move
+string pending_move
+string last_move
+string result
+string error
+string fen
+uint32 ply
+bool engine_busy
+bool evaluation_valid
+float32 evaluation_pawns
+bool evaluation_is_mate
+int32 mate_in

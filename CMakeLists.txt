@@ -21,7 +21,10 @@ find_package(vision_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "action/SpeakText.action"
-  "action/CaptureFace.action"
+  "action/CaptureFace.action"    "action/ComputeChessMove.action",
+    "srv/StartChessGame.srv"
+  "srv/ControlChessGame.srv"
+  "srv/GetChessState.srv"
   "srv/CommitFaceEnrollment.srv"
   "srv/BackLightCmd.srv"  
   "srv/GetBrightness.srv"
@@ -33,6 +36,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/GetGardenTasks.srv"
   "srv/EmptySrv.srv"
   "srv/SetVoiceState.srv"
+  "msg/ChessStatus.msg"
+  "msg/ChessEvent.msg"
   "msg/AudioFrame.msg"
   "msg/ContextLine.msg"
   "msg/IntentResult.msg"

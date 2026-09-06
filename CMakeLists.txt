@@ -21,8 +21,9 @@ find_package(vision_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "action/SpeakText.action"
-  "action/CaptureFace.action"    "action/ComputeChessMove.action",
-    "srv/StartChessGame.srv"
+  "action/CaptureFace.action"
+  "action/ComputeChessMove.action"
+  "srv/StartChessGame.srv"
   "srv/ControlChessGame.srv"
   "srv/GetChessState.srv"
   "srv/CommitFaceEnrollment.srv"

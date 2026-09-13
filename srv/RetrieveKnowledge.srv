@@ -1,0 +1,10 @@
+string query
+uint32 max_results
+---
+bool success
+string[] ids
+string[] documents
+string[] sources
+float32[] scores
+string[] metadata_json
+string error

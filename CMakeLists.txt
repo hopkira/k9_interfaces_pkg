@@ -38,6 +38,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/EmptySrv.srv"
   "srv/SetVoiceState.srv"
   "srv/RetrieveKnowledge.srv"
+  "srv/StringCommand.srv"
   "msg/ChessStatus.msg"
   "msg/ChessEvent.msg"
   "msg/AudioFrame.msg"
